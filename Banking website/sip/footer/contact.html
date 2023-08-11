@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <style>
+    /* Add some basic styling to the page */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333333;
+    }
+
+    .contact-form {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: left;
+      background-color: #ffffff;
+      border-radius: 5px;
+      padding: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 3px;
+      border: 1px solid #cccccc;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+
+  <div class="contact-form">
+    <form action="contact_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
+    
+  </div>
+
+    <div class="contact-info">
+      <p>For any assistance or inquiries, please contact our customer care team:</p>
+      <p>Email: <a href="mailto:customercare@onlinebanking.com">customercare@onlinebanking.com</a></p>
+      <p>Phone: +91 9525101252
+        Mobile no: +91 7488360774
+      </p>
+      <p>Working Hours: Monday to Friday, 9:00 AM - 5:00 PM</p>
+  </div>
+
+</body>
+</html>

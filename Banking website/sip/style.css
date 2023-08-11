@@ -1,0 +1,120 @@
+
+.welcome-message {
+    margin-top: 30px;
+  }
+
+  .button {
+    display: inline-block;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 0 23px;
+  }
+  .ty{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(11, 11, 61);
+    color: black;
+  }
+
+  .section {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    /* align-items: start; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: start; */
+    /* height: 30px; */
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    margin: 0 10px;
+  }
+
+  nav div  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff ;
+  }
+
+  /* .image-container {
+    margin-top: 50px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 10%;
+    
+  } */
+
+  .con{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .lg{
+    margin: 0 0 0 434px;
+  }
+  .image-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.image-container>div{
+  width: 40%;
+}
+.leftcontainer{
+  /* background-color: red; */
+  font-size: 3rem;
+}
+.rightcontainer img{
+  width: 108%;
+  }
+  
+  .secondcontainer{
+    display: flex;
+    justify-content:space-evenly ;
+  }
+  .secondcontainer my img{
+    width: 23px;
+    height: 43px;
+  }
+  .secondcontainer sec img{
+    width: 23px;
+    height: 46px;
+  }
+  .secondcontainer web img{
+    width: 23px;
+    height: 46px;
+  }
+  .dj> div{
+    width: 40%;
+  }
+  .kj{
+    font-size: 1.5rem;
+  }
+  .dj
+{
+border: thick double #000000;
+margin: 0 193px;
+background-color: white;
+}
+.jl{
+  border: solid black;
+}
